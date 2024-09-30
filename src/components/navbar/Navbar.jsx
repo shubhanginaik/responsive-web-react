@@ -1,10 +1,15 @@
 import React from "react";
 import "./navbar.css";
+import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 
 const Navbar = () => {
   return (
-    <div>
-      <h1>Navbar</h1>
+    <div className="gpt3__navbar">
+      <div className="gtp3__navbar-links">
+        <div className="gpt3__navbar-links_logo">
+          <img src="" alt="logo" />
+        </div>
+      </div>
     </div>
   );
 };

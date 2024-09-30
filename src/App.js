@@ -8,12 +8,13 @@ import {
   WhatGPT3,
   Header,
 } from "./containers";
-import { Brand, ACT, Navbar } from "./components";
+import { Brand, CTA, Navbar } from "./components";
+import "./App.css";
 
 const App = () => {
   return (
     <div className="App">
-      <div>
+      <div className="gradient__bg">
         <Navbar />
         <Header />
       </div>
@@ -21,7 +22,9 @@ const App = () => {
       <WhatGPT3 />
       <Features />
       <Possibility />
-
+      <CTA />
+      <Blog />
+      <Footer />
       <h1>App</h1>
     </div>
   );

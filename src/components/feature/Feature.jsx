@@ -2,11 +2,7 @@ import React from "react";
 import "./feature.css";
 
 const Feature = () => {
-  return (
-    <div>
-      <h1>Feature</h1>
-    </div>
-  );
+  return <div>Feature</div>;
 };
 
 export default Feature;
