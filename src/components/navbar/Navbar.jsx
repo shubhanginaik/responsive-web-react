@@ -27,11 +27,11 @@ const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   return (
     <div className="gpt3__navbar">
-      <div className="gtp3__navbar-links">
+      <div className="gpt3__navbar-links">
         <div className="gpt3__navbar-links_logo">
           <img src={logo} alt="logo" />
         </div>
-        <div className="gpt3_navbar-links_container">
+        <div className="gpt3__navbar-links_container">
           <Menu />
         </div>
       </div>
@@ -55,7 +55,7 @@ const Navbar = () => {
         )}
         {toggleMenu && (
           <div className="gpt3__navbar-menu_container scale-up-center">
-            <div className="gpt3__navbar-menu_container">
+            <div className="gpt3__navbar-menu_container-links">
               <Menu />
               <div className="gpt3__navbar-menu_container-links-sign">
                 <p>Sign in</p>
