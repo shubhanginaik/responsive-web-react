@@ -66,6 +66,29 @@
   padding: 0px 1rem;
   border-radius: 0 5px 5px 0;
 }
+.gpt3__header-content_people {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  margin-top: 2rem;
+}
+
+.gpt3__header-content_people img {
+  width: 181px;
+  height: 38px;
+}
+
+.gpt3__header-content_people p {
+  margin: 0 0 0 1rem;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 38px;
+  color: #fff;
+  text-align: center;
+}
 
 .gpt3__header-image {
   display: flex;

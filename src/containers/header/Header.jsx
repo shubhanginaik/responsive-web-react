@@ -21,7 +21,7 @@ const Header = () => {
           <button>Get Started</button>
         </div>
         <div className="gpt3__header-content_people">
-          <img src={people} alt="people.image" />
+          <img src={people} alt="people-image" />
           <p>1,600 people requested access a visit in last 24 hours</p>
         </div>
       </div>
