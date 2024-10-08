@@ -20,15 +20,15 @@ const WhatGPT3 = () => {
       <div className="gpt3__whatgpt3-container">
         <Feature
           title="Chatbots"
-          text="We so opinion friends me message as delight. Whole front do of plate heard oh ought."
+          text="Get quick, 24/7 assistance with our AI-powered chatbot. It answers questions instantly, helps with tasks like booking or troubleshooting, and personalizes responses based on your needs. No waiting—just type your query and receive immediate help!"
         />
         <Feature
           title="Knowledgebase"
-          text="At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b"
+          text="It is a centralized, searchable collection of articles, FAQs, and guides that helps users find information or solve problems on their own. It offers 24/7 self-service support, reduces the need for human assistance, and ensures consistent, accurate answers for users"
         />
         <Feature
           title="Education"
-          text="At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b"
+          text="It helps with personalized learning by offering explanations, tutoring, quiz generation, and writing assistance across various subjects. It adapts to individual learning needs, providing instant feedback and support for students and educators."
         />
       </div>
     </div>
